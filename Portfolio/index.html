@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santhosh | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2 class="logo">Santhosh<span>.</span></h2>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a id="theme" class="theme-btn">🌙</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="intro">HELLO, I'M</p>
+        <h1>Santhosh B S</h1>
+        <h2>MERN Stack Developer</h2>
+
+        <p>
+          I build responsive websites and full-stack web applications using
+          modern technologies.
+        </p>
+
+        <a href="#projects" class="btn">View My Work</a>
+        <a
+          id="downloadBtn"
+          href="./santhoshresume.pdf"
+          download="santhosh_Resume.pdf"
+          class="btn secondary"
+          >Download Resume</a
+        >
+        <span class="download-count">
+          Downloads: <span id="count">0</span>
+        </span>
+      </div>
+      <div class="hero-profile">
+        <img
+          id="profileImage"
+          src="profile.jpeg"
+          class="profile-image"
+          alt="Profile Image"
+          hidden
+        />
+
+        <button id="profileToggle" class="btn" aria-expanded="false">
+          Show Profile Image
+        </button>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        MERN Stack Developer skilled in React.js, JavaScript, Node.js,
+        Express.js, MongoDB, and Tailwind CSS. Experienced in developing
+        real-world full-stack applications, integrating REST APIs, implementing
+        authentication and role-based access, working with biometric device
+        APIs, and building responsive user interfaces. Strong understanding of
+        frontend and backend development, database operations, API integration,
+        debugging, and collaborative development.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+
+      <div class="cards">
+        <div class="card">Languages: JavaScript, Java</div>
+        <div class="card">Frontend: React.js, Tailwind CSS</div>
+        <div class="card">Backend: Node.js, Express.js</div>
+        <div class="card">Database: MongoDB</div>
+        <data class="card">Tools: Git, GitHub, Figma, Postman</data>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+
+      <div class="cards">
+        <div class="project-card">
+          <h3>CineVerse - Movie Website (React)</h3>
+          <p>
+            Built responsive movie browsing platform with multilingual support
+            and trailer integration.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>SerenityStays - Hotel Reservation Website</h3>
+          <p>
+            Developed a user-friendly hotel reservation interface with room
+            selection and booking functionality.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Weather Website</h3>
+          <p>Built real-time weather application using API integration.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>EcomX - E-Commerce Website</h3>
+          <p>
+            Built a full-featured e-commerce platform with product listings,
+            shopping cart functionality, and a user-friendly interface.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <div class="cards">
+        <div class="education-card">
+          <h3>B.E Computer Science and Engineering</h3>
+          <p>S.A Engineering College 2023 - 2027</p>
+          <p>CGPA : 8.42</p>
+        </div>
+        <div class="education-card">
+          <h3>Higher Secondary Education (12th)</h3>
+          <p>Sundar Matriculation Higher Secondary School 2023</p>
+          <p>Percentange : 75</p>
+        </div>
+        <div class="education-card">
+          <h3>Secondary Education (10th)</h3>
+          <p>Sundar Matriculation Higher Secondary School 2021</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div>
+        <h2>Contact</h2>
+        <p>Contact No: 7695801106</p>
+        <p>Email: santhosh220506@gmail.com</p>
+        <p>
+          GitHub :
+
+          <a href="https://github.com/santhosh-bs22 " target="_blank">
+            santhosh-bs22
+          </a>
+        </p>
+        <p>
+          Linkedin :
+
+          <a href="https://linkedin.com/in/santhoshsekar-bs" target="_blank">
+            Santhosh B S
+          </a>
+        </p>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
